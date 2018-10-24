@@ -13,7 +13,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5cda7e20-534b-427c-9dca-d186f7af7e11" name="Default" comment="the heuristics algorithm finished">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Backpacking.dir/main.cpp.o" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -40,7 +39,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="473" />
+          <entry key="cpp" value="986" />
           <entry key="h" value="1" />
           <entry key="txt" value="81" />
         </counts>
@@ -48,7 +47,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CMakeLists.txt" value="33" />
-          <entry key="ObjectiveC" value="474" />
+          <entry key="ObjectiveC" value="987" />
           <entry key="PLAIN_TEXT" value="48" />
         </counts>
       </usages-collector>
@@ -91,8 +90,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="139" column="14" lean-forward="true" selection-start-line="139" selection-start-column="14" selection-end-line="139" selection-end-column="14" />
+            <state relative-caret-position="420">
+              <caret line="43" column="23" lean-forward="true" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -263,7 +262,7 @@
       <updated>1540293248954</updated>
       <workItem from="1540293250750" duration="1576000" />
       <workItem from="1540386202570" duration="1079000" />
-      <workItem from="1540387331556" duration="3850000" />
+      <workItem from="1540387331556" duration="6924000" />
     </task>
     <task id="LOCAL-00001" summary="finishing the heuristics algorithm">
       <created>1540387922728</created>
@@ -279,11 +278,25 @@
       <option name="project" value="LOCAL" />
       <updated>1540390820108</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="the heuristics algorithm finished">
+      <created>1540391195861</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1540391195861</updated>
+    </task>
+    <task id="LOCAL-00004" summary="the heuristics algorithm finished">
+      <created>1540396837011</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1540396837011</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6505000" />
+    <option name="totallyTimeSpent" value="9579000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1412" extended-state="6" />
@@ -422,8 +435,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="139" column="14" lean-forward="true" selection-start-line="139" selection-start-column="14" selection-end-line="139" selection-end-column="14" />
+        <state relative-caret-position="420">
+          <caret line="43" column="23" lean-forward="true" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>

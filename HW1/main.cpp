@@ -39,16 +39,22 @@ int *bruteForceCalculate2(int * m, int * c, int * res, int M, int W, int n, int 
     //pokud jsem dosel na konec plneni knapsacku
     if (i >= n || W == M) return res;
 
+
+
     if (W + m[i] > M) {
         return bruteForceCalculate2(m,c,res, M,W,n, i + 1);
     }
 
-    int * resAdded=copy(res);
+    int * resAdded;
+    copy(res[0], res[n], resAdded[0]);
 
-    int  *tmp1 = bruteForceCalculate2(problem->flipValue(i), M, i + 1);
-    int  *tmp2 = bruteForceCalculate2(problem, M, i + 1);
 
-    if (tmp1->getPrice() > tmp2->getPrice()) {
+    resAdded[i]=1;
+
+    int  *tmp1 = bruteForceCalculate2(m,c,resAdded, M,W,n, i + 1);
+    int  *tmp2 = bruteForceCalculate2(m,c,res, M,W,n, i + 1);
+
+    if (1) {
         delete tmp2;
         return tmp1;
     } else {
@@ -189,11 +195,11 @@ int main(int argc, char **argv) {
     cout << "The Backpack Problem" << endl;
 
 
-    knap("./inst/knap_4.inst.dat",0,1,0);
-    knap("./inst/knap_10.inst.dat",0,1,0);
-    knap("./inst/knap_20.inst.dat",0,1,0);
-    knap("./inst/knap_22.inst.dat",0,1,0);
-    knap("./inst/knap_25.inst.dat",0,1,0);
+    knap("./inst/knap_4.inst.dat",1,1,1);
+    knap("./inst/knap_10.inst.dat",1,1,1);
+    knap("./inst/knap_20.inst.dat",1,1,1);
+    knap("./inst/knap_22.inst.dat",1,1,1);
+    knap("./inst/knap_25.inst.dat",1,1,1);
 
 
 
