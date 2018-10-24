@@ -1,0 +1,50 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/Jakub/GoogleDrive/Programming/C++/MI-PAA/Backpacking - Copy/./BackpackProblem.h
+string
+-
+fstream
+-
+iostream
+-
+sstream
+-
+stack
+-
+deque
+-
+
+/cygdrive/c/Users/Jakub/GoogleDrive/Programming/C++/MI-PAA/Backpacking - Copy/BackpackProblem.cpp
+BackpackProblem.h
+/cygdrive/c/Users/Jakub/GoogleDrive/Programming/C++/MI-PAA/Backpacking - Copy/BackpackProblem.h
+
+/cygdrive/c/Users/Jakub/GoogleDrive/Programming/C++/MI-PAA/Backpacking - Copy/BackpackProblem.h
+string
+-
+fstream
+-
+iostream
+-
+sstream
+-
+stack
+-
+deque
+-
+
+/cygdrive/c/Users/Jakub/GoogleDrive/Programming/C++/MI-PAA/Backpacking - Copy/main.cpp
+iostream
+-
+fstream
+-
+sstream
+-
+./BackpackProblem.h
+/cygdrive/c/Users/Jakub/GoogleDrive/Programming/C++/MI-PAA/Backpacking - Copy/./BackpackProblem.h
+
