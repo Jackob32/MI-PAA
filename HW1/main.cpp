@@ -58,17 +58,6 @@ BackpackProblem *heuristicsCalculate(BackpackProblem *problem, int M, int i) {
 }
 
 
-// Driver program to test above function
-int main() {
-    int val[] = {60, 100, 120};
-    int wt[] = {10, 20, 30};
-    int W = 50;
-    int n = sizeof(val) / sizeof(val[0]);
-    printf("%d", knapSack(W, wt, val, n));
-    return 0;
-}
-
-
 int main(int argc, char **argv) {
     cout << "The Backpack Problem" << endl;
 
@@ -134,6 +123,7 @@ int main(int argc, char **argv) {
 
         //cout<<tmp<<endl;
         //tmp->format();
+
 
         delete tmp;
         delete[] Weights;

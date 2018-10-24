@@ -1,1 +1,1 @@
-/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/Backpacking.dir/main.cpp.o CMakeFiles/Backpacking.dir/BackpackProblem.cpp.o  -o Backpacking.exe -Wl,--out-implib,libBackpacking.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+/usr/bin/c++  -g   CMakeFiles/Backpacking.dir/main.cpp.o CMakeFiles/Backpacking.dir/BackpackProblem.cpp.o  -o Backpacking 

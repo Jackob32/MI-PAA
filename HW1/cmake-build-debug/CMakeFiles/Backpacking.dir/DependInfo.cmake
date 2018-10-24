@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/cygdrive/c/Users/Jakub/GoogleDrive/Programming/C++/MI-PAA/Backpacking - Copy/BackpackProblem.cpp" "/cygdrive/c/Users/Jakub/GoogleDrive/Programming/C++/MI-PAA/Backpacking - Copy/cmake-build-debug/CMakeFiles/Backpacking.dir/BackpackProblem.cpp.o"
-  "/cygdrive/c/Users/Jakub/GoogleDrive/Programming/C++/MI-PAA/Backpacking - Copy/main.cpp" "/cygdrive/c/Users/Jakub/GoogleDrive/Programming/C++/MI-PAA/Backpacking - Copy/cmake-build-debug/CMakeFiles/Backpacking.dir/main.cpp.o"
+  "/home/users/t/trhlijak/MI-PAA/HW1/BackpackProblem.cpp" "/home/users/t/trhlijak/MI-PAA/HW1/cmake-build-debug/CMakeFiles/Backpacking.dir/BackpackProblem.cpp.o"
+  "/home/users/t/trhlijak/MI-PAA/HW1/main.cpp" "/home/users/t/trhlijak/MI-PAA/HW1/cmake-build-debug/CMakeFiles/Backpacking.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

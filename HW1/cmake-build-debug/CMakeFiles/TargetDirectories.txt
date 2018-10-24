@@ -1,3 +1,3 @@
-/cygdrive/c/Users/Jakub/GoogleDrive/Programming/C++/MI-PAA/HW1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/cygdrive/c/Users/Jakub/GoogleDrive/Programming/C++/MI-PAA/HW1/cmake-build-debug/CMakeFiles/edit_cache.dir
-/cygdrive/c/Users/Jakub/GoogleDrive/Programming/C++/MI-PAA/HW1/cmake-build-debug/CMakeFiles/HW1.dir
+/home/users/t/trhlijak/MI-PAA/HW1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/users/t/trhlijak/MI-PAA/HW1/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/users/t/trhlijak/MI-PAA/HW1/cmake-build-debug/CMakeFiles/Backpacking.dir

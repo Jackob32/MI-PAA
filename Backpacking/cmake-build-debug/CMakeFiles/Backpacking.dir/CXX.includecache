@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/cygdrive/c/Users/Jakub/GoogleDrive/Programming/C++/MI-PAA/Backpacking/./BackpackProblem.h
+/home/users/t/trhlijak/MI-PAA/Backpacking/./BackpackProblem.h
 string
 -
 fstream
@@ -20,11 +20,11 @@ stack
 deque
 -
 
-/cygdrive/c/Users/Jakub/GoogleDrive/Programming/C++/MI-PAA/Backpacking/BackpackProblem.cpp
+/home/users/t/trhlijak/MI-PAA/Backpacking/BackpackProblem.cpp
 BackpackProblem.h
-/cygdrive/c/Users/Jakub/GoogleDrive/Programming/C++/MI-PAA/Backpacking/BackpackProblem.h
+/home/users/t/trhlijak/MI-PAA/Backpacking/BackpackProblem.h
 
-/cygdrive/c/Users/Jakub/GoogleDrive/Programming/C++/MI-PAA/Backpacking/BackpackProblem.h
+/home/users/t/trhlijak/MI-PAA/Backpacking/BackpackProblem.h
 string
 -
 fstream
@@ -38,7 +38,7 @@ stack
 deque
 -
 
-/cygdrive/c/Users/Jakub/GoogleDrive/Programming/C++/MI-PAA/Backpacking/main.cpp
+/home/users/t/trhlijak/MI-PAA/Backpacking/main.cpp
 iostream
 -
 fstream
@@ -46,5 +46,5 @@ fstream
 sstream
 -
 ./BackpackProblem.h
-/cygdrive/c/Users/Jakub/GoogleDrive/Programming/C++/MI-PAA/Backpacking/./BackpackProblem.h
+/home/users/t/trhlijak/MI-PAA/Backpacking/./BackpackProblem.h
 

@@ -65,7 +65,7 @@ BackpackProblem *BackpackProblem::flipValue(int flip) {
     return tmp;
 }
 
-                                                                                                                                             c
+
 void BackpackProblem::addItem(int Weight, int Price) {
 
 
