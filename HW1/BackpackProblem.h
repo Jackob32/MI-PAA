@@ -32,10 +32,10 @@ public:
     BackpackProblem * flipValue(int nulIndex);
 
     ~BackpackProblem();
-private:
+
 int id,n,M,Price,initM,Rest;
 int * Weights, * Prices, * itemNum;
-
+private:
 };
 
 

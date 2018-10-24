@@ -35,24 +35,45 @@ BackpackProblem *heuristicsCalculate(BackpackProblem *problem, int M, int i) {
 
     double *ratio = new double[problem->getN()];
 
-    array<int, 2> a[5] = {{20, 11},
+    array<double, 2> a[problem->getN()];
+    /*= {{20, 11},
                           {10, 20},
                           {39, 14},
                           {29, 15},
                           {22, 23}};
+                          */
 
-    sort(a, a + 5);
+
 
     for (int j = 0; j < problem->getN(); ++j) {
 
-        ratio[j] = (double) problem->getW(j) / ((double) problem->getP(j));
-        cout << "m " << ratio[j] << endl;
+        a[j] = {(double) problem->getW(j) / ((double) problem->getP(j)),(double)j};
+
     }
-    sort(ratio, ratio + problem->getN());
+
+    sort(a, a + problem->getN());
+
+    int k=0;
+
+    while(k<problem->getN()) {
+
+        if (problem->getM() + problem->getW((int) a[k][1]) <= problem->getinitM()) {
+
+        problem->itemNum[(int) a[k][1]] = 1;
+        problem->M += problem->getW((int) a[k][1]);
+        problem->Price += problem->getP((int) a[k][1]);
+    }
+        k++;
+
+    }
+    cout <<"\n\n\n";
     for (int j = 0; j < problem->getN(); ++j) {
 
-        cout << " " << ratio[j] << endl;
+        cout << a[j][0] <<"  " << a[j][1] << " "<<  problem->getW((int)a[j][1]) << " " <<problem->getP((int)a[j][1]) << endl;
     }
+
+
+
     return problem;
 
 }
@@ -115,14 +136,14 @@ int main(int argc, char **argv) {
         BackpackProblem *tmp = new BackpackProblem(id, n, M, Weights, Prices, SumWeights);
         //       cout << "============================" << endl;
 
-        heuristicsCalculate(tmp, tmp->getinitM(), 0);
+        tmp=heuristicsCalculate(tmp, tmp->getinitM(), 0);
 
 
         //  heuristicsCalculate(tmp, tmp->getinitM(), 0);
 
 
         //cout<<tmp<<endl;
-        //tmp->format();
+        tmp->format();
 
 
         delete tmp;
@@ -134,7 +155,7 @@ int main(int argc, char **argv) {
 
         BestPrice = 0;
     }
-    cout << float(clock() - begin_time) / CLOCKS_PER_SEC << endl;
+    cout <<"\n"<< float(clock() - begin_time) / CLOCKS_PER_SEC << "  s "<<endl;
 
     return 0;
 }
