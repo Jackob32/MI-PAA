@@ -66,12 +66,16 @@ BackpackProblem *heuristicsCalculate(BackpackProblem *problem, int M, int i) {
         k++;
 
     }
+
+    /*
     cout <<"\n\n\n";
+
+
     for (int j = 0; j < problem->getN(); ++j) {
 
         cout << a[j][0] <<"  " << a[j][1] << " "<<  problem->getW((int)a[j][1]) << " " <<problem->getP((int)a[j][1]) << endl;
     }
-
+*/
 
 
     return problem;
@@ -133,20 +137,33 @@ int main(int argc, char **argv) {
             SumWeights += Prices[i];
         }
 
-        BackpackProblem *tmp = new BackpackProblem(id, n, M, Weights, Prices, SumWeights);
+        BackpackProblem *heur = new BackpackProblem(id, n, M, Weights, Prices, SumWeights);
         //       cout << "============================" << endl;
 
-        tmp=heuristicsCalculate(tmp, tmp->getinitM(), 0);
+        heur=heuristicsCalculate(heur, heur->getinitM(), 0);
 
+
+        BackpackProblem *optim = new BackpackProblem(id, n, M, Weights, Prices, SumWeights);
+        //       cout << "============================" << endl;
+
+        optim=bruteForceCalculate(optim, optim->getinitM(), 0);
 
         //  heuristicsCalculate(tmp, tmp->getinitM(), 0);
 
 
         //cout<<tmp<<endl;
-        tmp->format();
+        heur->format();
+
+        optim->format();
 
 
-        delete tmp;
+
+
+        cout<<optim->id<<"  "<<(double)(optim->getPrice()-heur->getPrice())/optim->getPrice()*100<<endl;
+
+
+        delete heur;
+        delete optim;
         delete[] Weights;
         delete[] Prices;
 

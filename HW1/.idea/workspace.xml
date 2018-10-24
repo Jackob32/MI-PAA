@@ -11,11 +11,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5cda7e20-534b-427c-9dca-d186f7af7e11" name="Default" comment="finishing the heuristics algorithm">
+    <list default="true" id="5cda7e20-534b-427c-9dca-d186f7af7e11" name="Default" comment="the heuristics algorithm finished">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BackpackProblem.h" beforeDir="false" afterPath="$PROJECT_DIR$/BackpackProblem.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Backpacking.dir/BackpackProblem.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Backpacking.dir/BackpackProblem.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Backpacking.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Backpacking.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Backpacking.dir/main.cpp.o" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -42,16 +40,16 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="366" />
+          <entry key="cpp" value="473" />
           <entry key="h" value="1" />
-          <entry key="txt" value="69" />
+          <entry key="txt" value="81" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CMakeLists.txt" value="33" />
-          <entry key="ObjectiveC" value="367" />
-          <entry key="PLAIN_TEXT" value="36" />
+          <entry key="ObjectiveC" value="474" />
+          <entry key="PLAIN_TEXT" value="48" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -93,8 +91,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="736">
-              <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
+            <state relative-caret-position="434">
+              <caret line="139" column="14" lean-forward="true" selection-start-line="139" selection-start-column="14" selection-end-line="139" selection-end-column="14" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -113,7 +111,11 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sol/knap_4.sol.dat">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="38" column="19" lean-forward="true" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -261,7 +263,7 @@
       <updated>1540293248954</updated>
       <workItem from="1540293250750" duration="1576000" />
       <workItem from="1540386202570" duration="1079000" />
-      <workItem from="1540387331556" duration="3379000" />
+      <workItem from="1540387331556" duration="3850000" />
     </task>
     <task id="LOCAL-00001" summary="finishing the heuristics algorithm">
       <created>1540387922728</created>
@@ -270,11 +272,18 @@
       <option name="project" value="LOCAL" />
       <updated>1540387922728</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="the heuristics algorithm finished">
+      <created>1540390820108</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1540390820108</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6034000" />
+    <option name="totallyTimeSpent" value="6505000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1412" extended-state="6" />
@@ -335,7 +344,8 @@
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
     <MESSAGE value="finishing the heuristics algorithm" />
-    <option name="LAST_COMMIT_MESSAGE" value="finishing the heuristics algorithm" />
+    <MESSAGE value="the heuristics algorithm finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="the heuristics algorithm finished" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../Backpacking - Copy/BackpackProblem.h">
@@ -396,9 +406,6 @@
     <entry file="file://$PROJECT_DIR$/inst/knap_10.inst.dat">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/sol/knap_4.sol.dat">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/inst/knap_4.inst.dat">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -406,10 +413,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sol/knap_4.sol.dat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="19" lean-forward="true" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
+        <state relative-caret-position="434">
+          <caret line="139" column="14" lean-forward="true" selection-start-line="139" selection-start-column="14" selection-end-line="139" selection-end-column="14" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
