@@ -8,6 +8,7 @@
 #include <sstream>
 #include <stack>
 #include <deque>
+#include <cstring>
 
 using namespace std;
 

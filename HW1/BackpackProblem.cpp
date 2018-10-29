@@ -14,11 +14,8 @@ BackpackProblem::BackpackProblem(int id, int n, int M, int *Weights, int *Prices
     this->initM = M;
     this->Weights = Weights;
     this->Prices = Prices;
-    this->itemNum = new int[n];
+    this->itemNum = new int[n]();
 
-    for (int i = 0; i < n; i++) {
-        itemNum[i] = 0;
-    }
     this->Rest = Rest;
 
 }
@@ -54,11 +51,15 @@ int BackpackProblem::getP(int i) {
 BackpackProblem *BackpackProblem::flipValue(int flip) {
     BackpackProblem *tmp = new BackpackProblem(id, n, M, Weights, Prices, Rest - Prices[flip]);
 
-    for (int i = 0; i < n; i++) {
-        tmp->itemNum[i] = itemNum[i];
-    }
-    //cout<< " n" << n<<" flip "<<flip<<endl;
+    //copy(itemNum[0], itemNum[n], tmp->itemNum[0]);
 
+    //cout<< " n" << n<<" flip "<<flip<<endl;
+     memcpy( tmp->itemNum, itemNum, sizeof(&tmp->itemNum) );
+/*
+    for (int i = 0; i < n; ++i) {
+        tmp->itemNum[i]= itemNum[i];
+    }
+*/
     tmp->itemNum[flip] = 1;
     tmp->M = M + Weights[flip];
     tmp->Price = Price + Prices[flip];
